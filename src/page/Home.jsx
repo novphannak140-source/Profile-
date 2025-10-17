@@ -57,7 +57,7 @@ const Home = () => {
   }
 
   return (
-    <div className="w-full h-auto flex justify-center items-center py-1 md:py-10 lg:px-0 px-  ">
+    <div className="w-full h-auto flex justify-center bg-gray-900 items-center py-1 md:py-10 lg:px-0 px-  ">
       <div className="grid grid-cols-1 lg:pt-20 md:py-0 sm:py-0  md:grid-cols-2 lg:grid-cols-2 gap-6 ">
         <div className="col-span-1 w-full h-auto  flex justify-center items-center  px-13 md:px-10 lg:px-1  font-bold ">
           <div className="flex flex-col  gap-3 pt-10 md:pt-0 lg:pt-0  ">
