@@ -18,7 +18,7 @@ const Project = () => {
     },
     {
       id: 2,
-      title: "Web Portofolio 3.0",
+      title: "Website Sell Cars LAMBORGHINI",
       description: "Personal  profile website",
       tech: ["React", "Tailwindcss"],
       image: img2,
