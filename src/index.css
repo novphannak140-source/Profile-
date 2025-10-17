@@ -28,6 +28,7 @@ body.light-mode {
 }
 body {
   background: #0f172a;
+  color: white;
 }
 body.dark-mode {
   background: linear-gradient(to bottom, #4c1d95, #0f172a, #000000);
