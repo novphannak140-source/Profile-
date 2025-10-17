@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Profile from "../assets/photos/Nov Phannak-cv-profile.jpg";
 
 function Cv() {

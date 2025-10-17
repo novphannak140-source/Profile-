@@ -63,7 +63,7 @@ function Navbar() {
 
           {/* Mobile Menu */}
           <div
-            className={`lg:hidden fixed z-50 top-17 left-0 w-80 md:w-150 bg-gray-900 py-2  shadow-lg rounded-e-md  via-slate-800k text-white h-screen text-lg transition-all duration-500 ease-in-out transform ${
+            className={`lg:hidden fixed z-50 top-16 left-0 w-80 md:w-150 bg-gray-900 py-2  shadow-lg rounded-e-md  via-slate-800k text-white h-screen text-lg transition-all duration-500 ease-in-out transform ${
               mobail
                 ? "translate-x-0 opacity-100"
                 : "-translate-x-full opacity-0 pointer-events-none"
