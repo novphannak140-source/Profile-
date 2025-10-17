@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import imgcv from "../assets/IMG/photo cv-1-blue.jpg";
 import { TypeAnimation } from "react-type-animation";
 import cv from "../assets/photos/NOV Phannak-cv.jpg";
+import Cv from "../ux/Cv";
 
 const Home = () => {
+  const Profile = [{ id: 1, name: "Look Cv ", Link: "/cv" }];
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
 
@@ -83,12 +85,19 @@ const Home = () => {
               >
                 Download CV
               </button>
+
               <button
                 type="button"
                 className=" bg-gradient-to-r hover:text-white from-gray-900 to-white/90   px-3 text-white py-3 rounded-lg font-semibold
                  hover:from-purple-600 hover:to-pink-900 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30 transform hover:scale-[1.02]"
               >
-                Look CV
+                {Profile.map((item) => (
+                  <div key={item.id}>
+                    <Link to={item.Link}>
+                      <div>{item.name}</div>
+                    </Link>
+                  </div>
+                ))}
               </button>
             </div>
           </div>

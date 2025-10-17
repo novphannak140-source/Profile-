@@ -6,7 +6,7 @@ import About from "./page/About";
 import Contacet from "./page/Contacet";
 import Skil from "./page/Skil";
 import Project from "./page/Project";
-
+import Cv from "./ux/Cv";
 function App() {
   return (
     <>
@@ -20,6 +20,7 @@ function App() {
             <Route path="/skil" element={<Skil />} />
             <Route path="/project" element={<Project />} />
             <Route path="/contacet" element={<Contacet />} />
+            <Route path="/cv" element={<Cv />} />
           </Routes>
         </Router>
       </div>
