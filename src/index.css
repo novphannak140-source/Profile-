@@ -23,7 +23,7 @@ body {
 }
 body.light-mode {
   background-color: #fff;
-  color: #1e1e1e;
+  color: #333;
   transition: background-color 0.3s ease;
 }
 body.dark-mode {
