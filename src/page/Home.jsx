@@ -79,22 +79,13 @@ const Home = () => {
             <div className="flex gap-5  items-center pt-5">
               <button
                 type="button"
-                className=" 
-                bg-gradient-to-r hover:text-white from-gray-700 to-white/90   px-2 text-white py-3 rounded-lg font-semibold
-                 hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30 transform hover:scale-[1.02]"
-              >
-                Download CV
-              </button>
-
-              <button
-                type="button"
-                className=" bg-gradient-to-r hover:text-white from-gray-900 to-white/90   px-3 text-white py-3 rounded-lg font-semibold
+                className=" bg-gradient-to-r hover:text-white from-gray-900 to-white/90   px-6 text-white py-3 rounded-lg font-semibold
                  hover:from-purple-600 hover:to-pink-900 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/30 transform hover:scale-[1.02]"
               >
                 {Profile.map((item) => (
                   <div key={item.id}>
                     <Link to={item.Link}>
-                      <div>{item.name}</div>
+                      <div className="font-bold">{item.name}</div>
                     </Link>
                   </div>
                 ))}
