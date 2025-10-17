@@ -24,7 +24,10 @@ body {
 body.light-mode {
   background-color: #fff;
   color: #333;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
+}
+body {
+  background: #123458;
 }
 body.dark-mode {
   background: linear-gradient(to bottom, #4c1d95, #0f172a, #000000);
