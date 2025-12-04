@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import imgcv from "../assets/IMG/photo cv-1-blue.jpg";
 import { TypeAnimation } from "react-type-animation";
 import cv from "../assets/photos/NOV Phannak-cv.jpg";
-import Cv from "../ux/Cv";
-
+import work from "../assets/photos/Poster work.jpg";
 const Home = () => {
   const Profile = [{ id: 1, name: "Look Cv ", Link: "/cv" }];
   const [loading, setLoading] = useState(true);
@@ -136,7 +135,7 @@ const Home = () => {
 
                 {/* Main image with hover effects */}
                 <img
-                  src={cv}
+                  src={work}
                   alt="Profile photo"
                   className="rounded-2xl transform group-hover:scale-102 transition-transform duration-500 ease-out"
                 />
