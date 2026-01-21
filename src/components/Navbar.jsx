@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import DarkMode from "./DarkMode";
 import { useState } from "react";
 import imgcv from "../assets/photos/NOV Phannak.jpg";
-
+import photo from "../assets/photos/Photo make project.jpg";
+import per from "../assets/photos/Persnal photo.jpg";
 function Navbar() {
   const [mobail, setMobaile] = useState(false);
 
